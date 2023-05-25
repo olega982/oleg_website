@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Portfolio website" />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="" />
+    <link rel="apple-touch-icon" href="" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script src="js/script.js" defer></script>
+
+    <title>Oleg Partfolio page</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"></a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link smooth" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="main-nav-link smooth" href="#exp">Experience</a>
+          </li>
+          <li>
+            <a class="main-nav-link smooth" href="#pet-projects"
+              >Pet-projects</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Oleg Sinkov</h1>
+            <p class="hero-description">
+              Engineer with the high experirnce in manual and automation
+              testing.
+            </p>
+            <a href="#skills" class="btn btn--outline smooth"
+              >Learn more &darr;</a
+            >
+            <div class="socials">
+              <div class="delivered-imgs">
+                <a
+                  href="https://github.com/olega982/ngx-cypress-test"
+                  class="link"
+                  ><ion-icon name="logo-github" class="oleg-socials"></ion-icon
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/oleg-sinkov-b8998b212/"
+                  class="link"
+                  ><ion-icon
+                    name="logo-linkedin"
+                    class="oleg-socials"
+                  ></ion-icon
+                ></a>
+                <a href="https://t.me/Oleg1676" class="link"
+                  ><ion-icon
+                    name="paper-plane-outline"
+                    class="oleg-socials"
+                  ></ion-icon
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <svg
+              class="home__blob"
+              viewBox="0 00 200 187"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <mask id="mask0" mask-type="alpha">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                />
+              </mask>
+              <g mask="url(#mask0)">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                />
+                <image
+                  class="hero-img"
+                  href="./img/oleg_preview.svg"
+                  x="27"
+                  y="0"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="worked-with">
+        <div class="container">
+          <h2 class="heading-featured-in">Worked with</h2>
+          <div class="logos">
+            <img src="img/logos/techart.png" alt="Techart logo" />
+            <img
+              src="img/logos/vention_logomark_official_black.png"
+              alt="Vention logo"
+            />
+            <img src="img/logos/m8city.svg" alt="M8 city logo" />
+          </div>
+        </div>
+      </section>
+      <section class="section section-skills" id="skills">
+        <div class="container">
+          <span class="subheading">Skills</span>
+          <h2 class="heading-secondary">Check the stack you need</h2>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">JS</span>
+              <span class="">50%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-50"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Python</span>
+              <span class="">50%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-50"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">HTML/CSS</span>
+              <span class="">60%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-60"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Selenium</span>
+              <span class="">40%</span>
+            </div>
+
+            <div class="skill-bar"><span class="bar-40"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Cypress</span>
+              <span class="">60%</span>
+            </div>
+
+            <div class="skill-bar"><span class="bar-60"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">MySql</span>
+              <span class="">40%</span>
+            </div>
+
+            <div class="skill-bar"><span class="bar-40"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Github Actions</span>
+              <span class="">40%</span>
+            </div>
+
+            <div class="skill-bar"><span class="bar-40"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Jenkins</span>
+              <span class="">40%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-40"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Postman</span>
+              <span class="">60%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-60"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">Git</span>
+              <span class="">60%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-60"></span></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-name">
+              <span class="">TestRail</span>
+              <span class="">60%</span>
+            </div>
+            <div class="skill-bar"><span class="bar-60"></span></div>
+          </div>
+        </div>
+      </section>
+      <section class="section-how" id="exp">
+        <div class="container">
+          <span class="subheading">Experience</span>
+          <h2 class="heading-secondary">
+            Check how my experience corresponds to your needs
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- PROJECT 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Roombot reservation project</h3>
+            <p class="step-description">
+              The Roombot is a microservice application with "Slack",
+              "Telegram", "Outlook" and web tablet connections. All services
+              share the same core logic and database.
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>GitLab issue opening and tracking</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Test documentation creation and maintenance</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span
+                  >Functional testing: Smoke, Critical Path, Integration,
+                  Regression</span
+                >
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>API testing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Tasks initiation</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Project WiKi refill</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Mobile testing (Telegram and Sluck)</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="step-img-box">
+            <ion-icon name="calendar-outline" class="project-icon"></ion-icon>
+          </div>
+
+          <!-- PROJECT 02 -->
+          <div class="step-img-box">
+            <ion-icon
+              class="project-icon"
+              name="chatbubbles-outline"
+            ></ion-icon>
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Online negotiation planform</h3>
+            <p class="step-description">
+              Web negotiation platform Based on React + .net backend. Users can
+              create a specific negotiation regarding selling or buying some
+              property, business, etc.
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Requirements testing and analysis</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Test documentation creation and maintenance</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Automation on Python + Selenium + Allure</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>UI/UX testing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Perform platform roles and rights testing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Scrum meetings</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Performing test reports</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>API testing</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- PROJECT 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Healthcare project</h3>
+            <p class="step-description">
+              The platform allows doctors in different positions to share scans,
+              and patient cards, visualize the result of the scan, and make
+              decisions regarding illnesses.
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Requirements testing and analysis</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Test documentation creation and maintenance</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Developed automated UI tests using Cypress</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Running and debugging of scripts</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>UX/UI verification</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Bugs reporting and verification</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Basic CI/CD adjustments</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Cypress Dashboard reporting</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span
+                  >Implementing different CI/CD strategies regarding team
+                  needs.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="step-img-box">
+            <ion-icon name="medkit-outline" class="project-icon"></ion-icon>
+          </div>
+        </div>
+      </section>
+
+      <section class="pets" id="pet-projects">
+        <div class="container center-text">
+          <span class="subheading">Portfolio</span>
+          <h2 class="heading-secondary">Check out my GitHub pet projects</h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <a
+            href="https://github.com/olega982/ngx-cypress-test"
+            class="link"
+            target="_blank"
+          >
+            <div class="pet">
+              <img
+                src="img/pet-projects/pet-3.jpg"
+                class="pet-img"
+                alt="Project 1"
+              />
+              <div class="pet-content">
+                <p class="pet-title">UI tests with CI</p>
+                <ul class="pet-attributes">
+                  <li class="pet-attribute">
+                    <ion-icon class="stack-icon" name="logo-nodejs"></ion-icon>
+                    <span>JS</span>
+                  </li>
+                  <li class="pet-attribute">
+                    <ion-icon
+                      class="stack-icon"
+                      name="extension-puzzle-outline"
+                    ></ion-icon>
+                    <span>Cypress</span>
+                  </li>
+                  <li class="pet-attribute">
+                    <ion-icon name="logo-github" class="stack-icon"></ion-icon>
+                    <span>Github Actions</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://github.com/olega982/python_automation_live"
+            class="link"
+            target="_blank"
+          >
+            <div class="pet">
+              <img
+                src="img/pet-projects/pet-2.jpg"
+                class="pet-img"
+                alt="Avocado Salad"
+              />
+              <div class="pet-content">
+                <p class="pet-title">Live website tests</p>
+                <ul class="pet-attributes">
+                  <li class="pet-attribute">
+                    <ion-icon name="logo-python" class="stack-icon"></ion-icon>
+                    <span>Python</span>
+                  </li>
+                  <li class="pet-attribute">
+                    <ion-icon
+                      class="stack-icon"
+                      name="extension-puzzle-outline"
+                    ></ion-icon>
+                    <span>Selenium</span>
+                  </li>
+                  <li class="pet-attribute">
+                    <ion-icon
+                      class="stack-icon"
+                      name="refresh-outline"
+                    ></ion-icon>
+                    <span>Jenkins</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="socials">
+          <div class="delivered-imgs">
+            <a href="https://github.com/olega982/ngx-cypress-test" class="link"
+              ><ion-icon name="logo-github" class="oleg-socials"></ion-icon
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/oleg-sinkov-b8998b212/"
+              class="link"
+              ><ion-icon name="logo-linkedin" class="oleg-socials"></ion-icon
+            ></a>
+            <a href="https://t.me/Oleg1676" class="link"
+              ><ion-icon
+                name="paper-plane-outline"
+                class="oleg-socials"
+              ></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">My contacts</p>
+          <ul class="footer-nav">
+            <li><address class="address">Poland, Wroclaw</address></li>
+            <li>
+              <a class="footer-link" href="tel:+48-993-572-670"
+                >+48-993-572-670</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="mailto:olegsinkov088@gmail.com"
+                >olegsinkov088@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Navigation</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link smooth" href="#skills">Skills</a></li>
+            <li><a class="footer-link smooth" href="#exp">Experience</a></li>
+            <li>
+              <a class="footer-link smooth" href="#pet-projects"
+                >Pet projects</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
