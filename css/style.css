@@ -128,16 +128,11 @@
   margin-bottom: 4.8rem;
 }
 
-.hero-img {
-  width: 60%;
-  display: block;
-  z-index: 1000;
-  position: relative;
 
+.hero-img {
+  width: 72%;
 }
-.hero-img-box {
-  position: relative;
-}
+
 /* .hero-img::after {
   content: "";
   display: block;
